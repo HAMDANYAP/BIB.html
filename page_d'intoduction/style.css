@@ -1,0 +1,89 @@
+
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0 ;
+   font-family: Arial, Helvetica, sans-serif;
+}
+body{  
+display: flex ;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+height: 100%;
+background-image: url("./side-view-girl-library-reading.jpg");
+background-size: cover ;
+background-repeat: no-repeat;
+
+}
+.section-intro {
+    height: 40rem;
+    width: 80rem;
+    border-radius: 20PX ;
+    background:rgba(0,0,0,0.55);
+    border: 1PX solid white;
+    position: relative;
+
+}
+.header-intro {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px ;
+    background-color: rgb(239, 224, 203);
+    border: none ;
+    box-shadow: 0 0 0 0 black;
+    border-bottom: 2px solid grey;
+}
+
+.logo-intro {
+     width: 30px ;
+    height: 30px ;
+   margin: 0 10px ;
+}
+.paragraphe {
+    font-size: 25px ;
+}
+.para{
+    color: #fff; 
+    transform: translate(-50% -50%);
+    
+}
+.para h1 {
+    font-size: 50px ;
+    margin: 30px  0 ;
+    transform: translatey( -100px );
+}
+.para p {
+    font-size: 25px ;
+    margin: 15px ;
+}
+.btn {
+    padding: 10px  20px  ;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 30px ;
+    border:none ;
+    outline: none ;
+    cursor: pointer;
+    transition: 0.5s ease;
+    background-color: rgba(191, 163, 117, 0.533);
+    color: #fff;
+    margin-left:200px ;
+
+}
+.btn:hover{
+    transform: scale(1.08);
+    font-size: 15.5px;
+    background-color: rgb(207, 159, 27);
+
+}
+.bib {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+
+}
+
+
